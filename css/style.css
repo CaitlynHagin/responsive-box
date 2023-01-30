@@ -1,0 +1,26 @@
+.box { color: pink;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;}
+
+/* MEDIA */ 
+@media (max-width:768px)
+{
+   .box {
+    width: 100%;
+    background-color: rebeccapurple;
+   
+} 
+
+}
+
+@media (max-width:576px) {
+.box {
+    width:50%;
+    background-color: red;
+}
+}
